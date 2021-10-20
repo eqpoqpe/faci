@@ -1,6 +1,6 @@
 # blcc
 
-script of betm library c compile, it's good for works.
+script of `BETM library C creator`, it's good work for you.
 
 ## COMMAND
 
