@@ -1,0 +1,4 @@
+#ifndef _HELLO_LIB_INTERFACE_H
+#define _HELLO_LIB_INTERFACE_H
+
+#endif /* _HELLO_LIB_INTERFACE_H */
