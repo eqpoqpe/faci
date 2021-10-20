@@ -1,8 +1,8 @@
-#blcc
+# blcc
 
 script of betm library c compile, it's good for works.
 
-##!new
+## !new
 
 ```
 .hello/
