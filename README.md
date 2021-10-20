@@ -2,7 +2,9 @@
 
 script of betm library c compile, it's good for works.
 
-## !new
+## COMMAND
+
+### !new
 
 ```
 .hello/
@@ -18,3 +20,5 @@ script of betm library c compile, it's good for works.
   |-- file.lock
 ```
 interface.blit
+
+### !init
