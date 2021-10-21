@@ -16,6 +16,12 @@ function util::check()
 	$ret $(grep -r "int main(*.*.*)" | awk -F: '{print $1}')
 }
 
+#$args_check()
+function util::args()
+{
+	$ret 0
+}
+
 if [ -n "$1" ]; then
 	case "${1##*:}" in
 	# util::check
@@ -25,6 +31,9 @@ if [ -n "$1" ]; then
 	# util::count
 	"count")
 	$ret $(util::check $@)
+	;;
+	"info")
+	echo "blcc::util"
 	;;
 	esac
 fi

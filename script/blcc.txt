@@ -1,0 +1,15 @@
+# Functions and Options:
+#
+#  make <default> [Makefile Path]
+#      --bin, -b  binary exec file directory, if not exists bin,
+#                 when @mkdir '$WORKING_DIR/bin'
+#      --lib, -l  [directory of library in working]
+#      --clean    clean useless files
+#
+#  library        [Directory Path]
+#      --name     the library name or defined name in Makefile
+#      --lib, -l  [same as make]
+#      --clean    clean useless files
+#
+#  new            [project name]
+
