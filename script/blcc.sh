@@ -85,6 +85,22 @@ esac
 	fi
 }
 
+#$count
+function count()
+{
+	#echo "$#"
+	return "$#"
+}
+
+count a b c
+echo $?
+
+#$check
+function check()
+{
+	echo "DONE"
+}
+
 #!new
 # $1:name $2:option
 function new()
@@ -130,8 +146,6 @@ function new()
 		tip $HELP
 	fi
 }
-
-new a --library
 
 #!make
 function make()
