@@ -46,9 +46,10 @@ Create a project directory or library directory, default
 will create a project directory, if needs create a
 library directory, please with '--library'.
 
-No options and default will create a project
+No options or defaults is create a project
+with:
 
-      -l, --library  create a project
+      -l, --library  create a project directory for library
 
 EOF
 ;;
@@ -131,14 +132,16 @@ function new()
 		if [ $gs = $1/$IB_BLIT ]; then
 			touch $gs && echo "[$1]" > $gs
 		else
-			mkdir $gs && echo "$gs" >> $1/$IB_BLIT
+			mkdir $gs && echo "$gs" >> \
+				$1/$IB_BLIT
 		fi
 	done
 	for gs in ${_IB_LIB_INIT[@]}; do
 		touch $gs
 	done
 	if [ -e "${_IB_LIB_INIT[2]}" ]; then
-		echo -e "int main()\n{\n\treturn 0;\n}" > ${_IB_LIB_INIT[2]}
+		echo -e "int main()\n{\n\treturn 0;\n}" > \
+			${_IB_LIB_INIT[2]}
 	fi
 	;;
 	$*)
@@ -151,7 +154,7 @@ function new()
 }
 
 # TODO unit test
-new --lib
+#new --lib
 
 #!make
 function make()

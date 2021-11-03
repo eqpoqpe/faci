@@ -21,13 +21,6 @@ script of `BETM library C creator`, it's good work for you.
 ```
 interface.blit
 
-### !init
-
-## In Build
-
-### $count
-
-### $check
 ```
 grep -r "int main(*.*.*)" | awk -F: '{print $1}'
 ```

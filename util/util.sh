@@ -11,7 +11,7 @@ function util::count()
 }
 
 #$check()
-function util::check()
+function util::check_main_word()
 {
 	$ret $(grep -r "int main(*.*.*)" | awk -F: '{print $1}')
 }
