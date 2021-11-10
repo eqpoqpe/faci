@@ -4,7 +4,7 @@ script of `BETM library C creator`, it's good work for you.
 
 ## COMMAND
 
-### !new
+### main::new
 
 ```
 .hello/
