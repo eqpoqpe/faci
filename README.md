@@ -1,11 +1,7 @@
-# blcc
+# facial
+C Programming Language Project Interfaces management and creative.
 
-script of `BETM library C creator`, it's good work for you.
-
-## COMMAND
-
-### main::new
-
+# Structure
 ```
 .hello/
   |-- lib/
