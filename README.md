@@ -1,7 +1,9 @@
 # facial
 C Programming Language Project Interfaces management and creative.
 
-**structure of directory of projects**
+**Directory structure of projects**
+
+`software`
 ```
 .hello/
   |-- lib/
@@ -15,6 +17,11 @@ C Programming Language Project Interfaces management and creative.
   |-- interface.blit
   |-- file.lock
 ```
+
+`library`
+```
+```
+
 **interface.blit**
 
 ```
