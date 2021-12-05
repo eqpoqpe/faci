@@ -1,7 +1,7 @@
 # facial
 C Programming Language Project Interfaces management and creative.
 
-# Structure
+**structure of directory of projects**
 ```
 .hello/
   |-- lib/
@@ -15,7 +15,7 @@ C Programming Language Project Interfaces management and creative.
   |-- interface.blit
   |-- file.lock
 ```
-interface.blit
+**interface.blit**
 
 ```
 grep -r "int main(*.*.*)" | awk -F: '{print $1}'
