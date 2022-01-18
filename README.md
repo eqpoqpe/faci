@@ -5,17 +5,17 @@ C Programming Language Project Interfaces management and creative.
 
 `software`
 ```
-.hello/
-  |-- lib/
-  |    |-- interface.h
-  |    |-- example.h
+hello
+  |`- lib/
+  |     |`- interface.h
+  |      `- example.h
   |
-  |-- src/
-  |    |-- hello.c
-  |    |-- main.c
+  |`- src/
+  |    |`- hello.c
+  |     `- main.c
   |
-  |-- interface.blit
-  |-- file.lock
+  |`- interface.blit
+  |`- file.lock
 ```
 
 `library`
