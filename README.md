@@ -1,9 +1,8 @@
-# facial
+# Facial
 C Programming Language Project Interfaces management and creative.
 
-**Directory structure of projects**
+## Project Directory Structure
 
-`software`
 ```
 hello
   |`- lib/
@@ -18,12 +17,7 @@ hello
   |`- file.lock
 ```
 
-`library`
-```
-```
-
 **interface.blit**
-
 ```
 grep -r "int main(*.*.*)" | awk -F: '{print $1}'
 ```
