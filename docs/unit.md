@@ -11,7 +11,7 @@ int main()
     return 0;
 }
 
-#[unit("Facial")]
+//[@unit("Facial")]
 void info(char *msg)
 {
     printf("Unit Test %s\n", msg);
