@@ -38,3 +38,6 @@ grep -r "int main(*.*.*)" | awk -F: '{print $1}'
 |  | `--dir` `-d` |  | - | - |  |
 |  |  | `--lib` `-b` | - | - |  |
 |  |  | `--proj` `-p` | - | - |  |
+
+# Documents
+[`docs/Keywords`](/docs/keyword.md)
