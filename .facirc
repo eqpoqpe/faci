@@ -1,0 +1,7 @@
+SCRIPT="faci";
+RFILE_BINARY_DIR="/usr/local/bin/rconf";
+TARGET_DIR="/tmp/faci";
+RANDOM_NID_BINARY="/usr/local/bin/spiralc";
+INFO_TOGG="disable";
+OUT_DIR="default";
+RCONF_PRESENT="";
