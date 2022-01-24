@@ -34,7 +34,7 @@ grep -r "int main(*.*.*)" | awk -F: '{print $1}'
 |  |  | `--link-source` `-L` | - | `LINK_SOURCE` | `enable` `disable` |
 |  |  | `--out` `-o` | `OUT_DIR` | `OUT_DIR` |  |
 |  |  | `--info` `-i` | - | `INFO_PRINT` | `enable` `disable` |
-| `Init` |  |  |  |  |  |
+| `init` |  |  |  |  |  |
 |  | `--dir` `-d` |  | - | - |  |
 |  |  | `--lib` `-b` | - | - |  |
 |  |  | `--proj` `-p` | - | - |  |
