@@ -1,6 +1,9 @@
-@function{
-rconf({"server.conf"});
+@unit{
+rconf({"server.conf", DSC});
 }
-@function{
-rconf({"client.conf"});
+@unit{
+rconf({"client.conf", DSC});
 }
+//@main{
+//main({});
+//}
