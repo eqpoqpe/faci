@@ -1,1 +1,6 @@
-
+@function{
+rconf({"server.conf"});
+}
+@function{
+rconf({"client.conf"});
+}
