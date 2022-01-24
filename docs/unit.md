@@ -1,5 +1,3 @@
-# Facial
-
 ## Unit Test
 ```c
 #include <stdio.h>
