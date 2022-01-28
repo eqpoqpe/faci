@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # FACIAL, faci
-# Copyright (c) 2021 Ryan Martin
-# Copyright (c) 2022 Ryan Martin
+# Copyright (c) 2021 - 2022 Ryan Martin
 
 declare readonly WORKING_DIR=$(pwd)
 declare readonly SCRIPT_NAME="faci"
